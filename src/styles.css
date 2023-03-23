@@ -1,0 +1,46 @@
+body {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FHTB15p0bKFXXXXamXFXXq6xXFXXXu%2FSexy-penis-neck-pillow-hot-sexy-birthday-gift-lovers-pillow-stuffed-plush-dolls.jpg&f=1&nofb=1&ipt=4fc2ba02bd8cd23e04be36e1bfe3049e7e24f0009d3f250a619d44570a9d1080&ipo=images);
+  background-repeat: no-repeat;
+}
+.unactive {
+  color: goldenrod;
+  width: 100px;
+  height: 100px;
+  font-size: xx-large;
+  position: relative;
+  
+  
+}
+@keyframes animationDissapear {
+  0% {
+    color: goldenrod;
+    left:0px;
+  }
+  25% {
+    color: black;
+    left:50px;
+  }
+  50% {
+    color: green;
+    left:40px;
+  }
+  75% {
+    color: seagreen;
+    left:60px;
+    top: 100px;
+  }
+  100% {
+    display: none;
+    left:0px;
+  }
+}
+.active {
+    width: 100px;
+    height: 100px;  
+  color: goldenrod;
+  position: relative;
+  font-size: xx-large;
+  animation-name: animationDissapear;
+  animation-duration: 4s;
+  
+}
