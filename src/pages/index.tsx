@@ -4,7 +4,7 @@ function App() {
   const [a, setA] = useState(1);
 
   let [Name, setString] = useState("unactive");
-  
+
   function handle(b: number) {
     setA((prev) => prev + 1);
   }
@@ -18,9 +18,7 @@ function App() {
   return (
     <>
       <div className={Name}>div</div>
-      <h1 id="titre1" >
-        Titre
-      </h1>
+      <h1 id="titre1" style={{color: "red"}}>Titre</h1>
       <h2>h3</h2>
       <span>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
